@@ -1,0 +1,17 @@
+{ 
+"name": "insightzone",
+"version": "1.0.0",
+"description": "Insights Application",
+"main": "server.js",
+"scripts": {
+  "test": "node server.js",
+  "start": "node server.js"
+},
+"author": "Navjot Singh",
+"license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  }
+}
