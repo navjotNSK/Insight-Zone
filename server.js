@@ -4,7 +4,7 @@ const promptCall = require("./config/prompt")
 
 const app =express();
 dotenv.config(); 
-const PORT  =  3006 ;  // process.env.PORT ||
+const PORT  =  3006 ;  //process.env.PORT ||
 
 app.listen(PORT , console.log(`Running on ${PORT}`));
 
